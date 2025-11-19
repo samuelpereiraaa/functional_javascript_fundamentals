@@ -11,7 +11,7 @@ function range(a, b, c = 1 ) {
     if (b === undefined){ // apenas 1 argumento
         start = 1
         stop = a
-        step = c
+        step = 1
     }
     
     else{ // 2 ou mais argumentos
